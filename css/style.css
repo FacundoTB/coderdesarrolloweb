@@ -463,36 +463,54 @@ form #boton:hover {
   margin: 20px 50px;
 }
 
-/* Footer */
-footer {
+.footer-prin{
   width: 100%;
-  background: #34373d;
-  max-height: 200px;
+  background-color: #0a141d;
+}
+.footer-prin .f-logo{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:50px;
+  padding: 45px 0px;
+}
+.footer-prin .f-logo .box figure{
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
-
-.footer__principal h2 {
-  font-size: 35px;
-  font-family: initial;
-  padding: 5px 0px 5px 15px;
-  color: #04e085;
+.footer-prin .f-logo .box figure img{
+  width: 250px;
+  height: 100px;
+  border-radius: 40%;
 }
-
-.footer__texto {
+.footer-prin .f-logo .box h2{
+  color: #fff;
+  margin-bottom: 25px;
   font-size: 20px;
-  font-family: initial;
-  padding: 5px 0px 5px 30px;
-  color: #04e085;
 }
-
-.footer__contactos {
-  margin: 72px 0;
+.footer-prin .f-logo .box p{
+  color: #efefef;
+  margin-bottom: 10px;
 }
-
-footer ul li {
-  display: inline;
-  padding: 5px 30px 5px 0px;
+.footer-prin .f-logo .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.footer-prin .f-logo .red-social a:hover{
+  color: aqua;
 }
 
 /* MOBILE */
